@@ -17,3 +17,5 @@ app.use("/api/auth", userRoutes);
 app.listen(PORT, () => {
   console.log(`Server started on PORT: ${PORT}`);
 });
+
+export default app;
